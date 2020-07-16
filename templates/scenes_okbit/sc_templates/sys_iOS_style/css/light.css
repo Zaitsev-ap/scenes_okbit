@@ -441,7 +441,7 @@ table {
 .center-menu .zero {
 	width:100%;
 	height: 25px;
-	background: #ffffff;
+/*	background: #ffffff;*/
 
 }
 
@@ -2181,7 +2181,7 @@ center-menu
 
 
 /* Portrait tablets and small desktops */
-@media (min-width: 800px) and (max-width: 899px) {
+@media (min-width: 850px) and (max-width: 899px) {
 	
 
 	
@@ -2211,7 +2211,7 @@ center-menu
 
 
 /* Landscape phones and smaller */
-@media (max-width: 799px) {
+@media (max-width: 849px) {
 	#scene_background_{{ID}} {
 		display: flex!important;
 		flex-flow: wrap!important;

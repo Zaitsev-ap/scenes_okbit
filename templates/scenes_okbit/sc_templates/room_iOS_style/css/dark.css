@@ -1523,7 +1523,7 @@ A, A:hover {
 	text-align: center; 
 	font-weight: bold;
     text-transform: uppercase;
-	width:calc(100vw/3 - 40px)!important;
+	/*width:calc(100vw/3 - 40px)!important;*/
 	color: #ffffff;
 }
 
@@ -2747,7 +2747,7 @@ A, A:hover {
 }
 
 /* Portrait tablets and medium desktops */
-@media (min-width: 1212px) and (max-width: 1439px) {
+@media (min-width: 850px) and (max-width: 1439px) {
 	
 	.left-menu .link-ico{
 		width:25px!important;
@@ -2777,7 +2777,7 @@ A, A:hover {
 }
 
 */
-@media (min-width: 1212px) {
+@media (min-width: 850px) {
 	
 	html {
 		overflow:  hidden; /* скрываем полосы прокрутки */
@@ -2899,7 +2899,7 @@ A, A:hover {
 
 
 /* Landscape phones and smaller */
-@media (min-width: 300px) and (max-width: 1211px) {
+@media (min-width: 300px) and (max-width: 849px) {
 	.{{LEFT}} {	/* LEFT */
 	width: 100%!important;
 	float:left  !important;
@@ -3032,6 +3032,6 @@ A, A:hover {
                 width: calc(100vw - 10px)!important;
         }
         .info-sl{
-                width: calc(100vw - 40px)!important;
+               /* width: calc(100vw - 40px)!important;*/
         }
 }

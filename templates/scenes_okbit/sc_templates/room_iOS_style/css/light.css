@@ -1535,7 +1535,7 @@ A, A:hover {
 	text-align: center; 
 	font-weight: bold;
         text-transform: uppercase;
-	width:calc(100vw/3 - 40px)!important;
+	/*width:calc(100vw/3 - 40px)!important;*/
 	color: #000000;
 }
 
@@ -2774,7 +2774,7 @@ input[type="checkbox"]:checked + label::after {
 }
 
 /* Portrait tablets and medium desktops */
-@media (min-width: 1212px) and (max-width: 1439px) {
+@media (min-width: 850px) and (max-width: 1439px) {
 	
 	.left-menu .link-ico{
 		width:25px!important;
@@ -2804,7 +2804,7 @@ input[type="checkbox"]:checked + label::after {
 }
 
 */
-@media (min-width: 1212px) {
+@media (min-width: 850px) {
 	
 	html {
 		overflow:  hidden; /* скрываем полосы прокрутки */
@@ -2922,7 +2922,7 @@ input[type="checkbox"]:checked + label::after {
 }
 
 /* Landscape phones and smaller */
-@media (min-width: 300px) and (max-width: 1211px) {
+@media (min-width: 300px) and (max-width: 849px) {
 	.{{LEFT}} {	/* LEFT */
 	width: 100%!important;
 	float:left  !important;
@@ -3060,6 +3060,6 @@ input[type="checkbox"]:checked + label::after {
 		width:calc(100vw - 10px)!important;
 	}
 	.info-sl{
-		width: calc(100vw - 40px)!important;
+		/*width: calc(100vw - 40px)!important;*/
 	}
 }
